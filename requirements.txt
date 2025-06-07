@@ -1,0 +1,8 @@
+pandas
+geopy
+geopandas
+folium
+plotly
+dash
+streamlit
+mesa
