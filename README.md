@@ -18,10 +18,12 @@ Este proyecto tiene como objetivo analizar los desplazamientos laborales de una 
  │   ├── simulation/       # Simulador de trayectos
  │   └── utils.py          # Funciones auxiliares
  ├── app/                  # App Streamlit o Dash (opcional)
+ │   └── main.py           # Interfaz de usuario para explorar y simular escenarios
  ├── docs/                 # Documentación técnica y científica
  ├── tests/                # Pruebas automáticas
  ├── requirements.txt      # Dependencias
  ├── docker-compose.yml    # Infraestructura reproducible
+ ├── Dockerfile            # Imagen para ejecutar la app en Streamlit
  ├── README.md             # Descripción general del proyecto
 ```
 
