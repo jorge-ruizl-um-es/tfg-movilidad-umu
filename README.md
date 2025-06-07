@@ -2,7 +2,28 @@
 
 Este proyecto tiene como objetivo analizar los desplazamientos laborales de una organización, calcular su huella de carbono, visualizar los datos geoespaciales y simular escenarios alternativos para políticas sostenibles.
 
-## Estructura general
+
+## ────────────── 📁 ESTRUCTURA DE CARPETAS ──────────────
+
+```
+ raiz_del_proyecto/
+ ├── data/                  # Datos originales y procesados
+ │   ├── raw/              # Excel original
+ │   ├── processed/        # CSV/GeoJSON enriquecido
+ ├── notebooks/            # Cuadernos Jupyter de análisis
+ ├── src/                  # Código fuente del proyecto
+ │   ├── geo/              # Georreferenciación, distancias
+ │   ├── emissions/        # Cálculo de huella de carbono
+ │   ├── visualization/    # Mapas, dashboards
+ │   ├── simulation/       # Simulador de trayectos
+ │   └── utils.py          # Funciones auxiliares
+ ├── app/                  # App Streamlit o Dash (opcional)
+ ├── docs/                 # Documentación técnica y científica
+ ├── tests/                # Pruebas automáticas
+ ├── requirements.txt      # Dependencias
+ ├── docker-compose.yml    # Infraestructura reproducible
+ ├── README.md             # Descripción general del proyecto
+```
 
 - `data/`: contiene datos originales y procesados.
 - `notebooks/`: contiene análisis en Jupyter.
